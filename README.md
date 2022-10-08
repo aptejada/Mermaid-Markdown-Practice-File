@@ -50,6 +50,8 @@ D -. Global Test .->G(anova.cca)
 C--> |Get summary of CCA Model| E(summary)
 C --> |Apply VIF less than 10|F(ordistep & vif.cca)
 F-. Global Test .->G(anova.cca)
+subgroup Plot
+direction BT
 D-->|Create simple plot|H(autoplot)
 D--> |Modify plot</br>fortify ccamodel</br>take scores, site factor, and species data| I(ggvegan,ggrepel,ggplot2)
 
