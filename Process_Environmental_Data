@@ -1,7 +1,6 @@
 #Processing Environmental Data
 ##Local Directory
 
-
 ```mermaid
 graph TD;
 read.csv-->summarySE;
