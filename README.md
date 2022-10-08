@@ -1,7 +1,7 @@
 # Practice | Mermaid-Markdown
  
-<h3 align="left">Objective:</h3>:
-  -To practice creating a simple flowchart for each of my research method
+<h3 align="left">Objective:</h3>
+  To practice creating a simple flowchart for each of my research method
   
 <h3 align="left">References:</h3>
   https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
@@ -9,7 +9,7 @@
   https://mermaid-js.github.io/mermaid/#/n00b-syntaxReference
   
 <h3 align="left">Note:</h3>
-  -codes are case sensitive,avoid spaces and read syntax
+  Codes are case sensitive,avoid spaces and read syntax
   
   ```mermaid
   graph TD;
