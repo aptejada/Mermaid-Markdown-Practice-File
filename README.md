@@ -11,7 +11,7 @@
   
   
   ```mermaid
-  graph RD;
+  graph TD;
   A-->B;
   A-->C;
   ```
