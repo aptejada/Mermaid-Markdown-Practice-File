@@ -20,7 +20,10 @@
   R-->Statistical_Analyses;
   Statistical_Analyses-->Data_visualizations;
   ```
- 
   
+<h3 align="left">Environmental Data:</h3>
   
-  
+```mermaid
+flowchart LR
+id1[(Working Directory)]
+```
