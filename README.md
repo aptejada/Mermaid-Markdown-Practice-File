@@ -9,7 +9,7 @@
   https://mermaid-js.github.io/mermaid/#/n00b-syntaxReference
   
 <h3 align="left">Note:</h3>
-  Codes are case sensitive,avoid spaces and read syntax
+  Read syntax and Beginner's Guide
   
   ```mermaid
   graph TD;
