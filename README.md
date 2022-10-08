@@ -31,6 +31,6 @@ C --> |Get Summary of </br>Inferential Stats| D(summarySE)
 C--> |Do a Quick Plot| E(qplot)
 C --> F(glm)
 F-. Normality Test.->G(shapiro.test)
-F-. Homoscedasticity. ->H(lmtest::bptest)
+F-. Homoscedasticity. ->H(bptest)
 
 ```
