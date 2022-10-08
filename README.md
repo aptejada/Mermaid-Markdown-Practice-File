@@ -8,11 +8,11 @@
   
   ```mermaid
   graph TD;
-      Raw Data-->Back-up Data;
-      Raw Data-->Working Directory;
-      Working Directory-->Data Cleaning;
-      Data Cleaning-->R;
-      R-->Statistical Analyses;
+  Raw Data-->Back-up Data;
+  Raw Data-->Working Directory;
+  Working Directory-->Data Cleaning;
+  Data Cleaning-->R;
+  R-->Statistical Analyses;
 ```
   
   
