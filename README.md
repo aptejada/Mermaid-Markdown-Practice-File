@@ -12,11 +12,11 @@
   
   ```mermaid
   graph TD;
-  Raw Data-->Backup Data;
-  Raw Data-->Process Data;
-  Process Data-->Cleaning Data;
-  Cleaning Data-->R;
-  R-->Statistical Analyses;
+  Raw_Data-->Backup_Data;
+  Raw_Data-->Process_Data;
+  Process_Data-->Clean_Data;
+  Clean_Data-->R;
+  R-->Statistical_Analyses;
   ```
  
   
