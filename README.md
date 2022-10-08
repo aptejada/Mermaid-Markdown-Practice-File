@@ -30,7 +30,7 @@ B --> |Data Cleaning &</br>Subsetting| C(tidyverse)
 C --> |Get Summary of </br>Inferential Stats| D(summarySE)
 C--> |Do a Quick Plot| E(qplot)
 C --> F(glm)
-F-. Normality Test.->G(shapiro.test)
-F-. Homoscedasticity. ->H(bptest)
+F-. Normality Test .->G(shapiro.test)
+F-. Homoscedasticity .->H(bptest)
 
 ```
