@@ -27,4 +27,7 @@
 flowchart LR
 id1[(Working Directory)] --> |Environmental Metadata| B(read.csv)
 B --> |Data Cleaning| C(tidyverse)
+C --> |Get Summary of Inferential Stats| D(summarySE)
+C--> |Do a Quick Plot| E(qplot)
+
 ```
