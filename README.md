@@ -21,7 +21,7 @@
   Statistical_Analyses-->Data_visualizations;
   ```
   
-<h3 align="left">Environmental Data:</h3>
+<h3 align="left">Physicochemical & Physiological Data:</h3>
   
 ```mermaid
 flowchart LR
