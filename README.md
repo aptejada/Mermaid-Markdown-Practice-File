@@ -25,5 +25,5 @@
   
 ```mermaid
 flowchart LR
-id1[(Working Directory)]
+id1[(Working Directory)] --> |Environmental Metadata| B(read.csv)
 ```
