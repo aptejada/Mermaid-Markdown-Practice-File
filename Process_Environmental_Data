@@ -1,7 +1,6 @@
 #Processing Environmental Data
 ##Local Directory
 
-````
 ```mermaid
 graph TD;
 read.csv-->summarySE;
@@ -10,7 +9,6 @@ summarySE-->glm;
 glm-->write.csv;
 glm-->ggplot;
 ```
-````
 
 
 
