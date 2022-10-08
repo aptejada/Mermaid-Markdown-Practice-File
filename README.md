@@ -32,7 +32,7 @@ C--> |Do a Quick Plot| E(qplot)
 C --> F(glm)
 F-. Normality Test .->G(shapiro.test)
 F--> |Homoscedasticity| H(bptest)
-subgraph
+subgraph F
 direction TB
 F--> |Interactions of Factors| I(TukeyHSD)
 end
