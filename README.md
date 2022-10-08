@@ -26,4 +26,5 @@
 ```mermaid
 flowchart LR
 id1[(Working Directory)] --> |Environmental Metadata| B(read.csv)
+B --> |Data Cleaning| C(tidyverse)
 ```
