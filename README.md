@@ -9,7 +9,7 @@
   #https://tuts.alexmercedcoder.dev/2022/2/why-all-developers-should-master-markdown/
   #https://mermaid-js.github.io/mermaid/#/n00b-syntaxReference
   
-  
+  #codes are case sensitive,avoid spaces and read syntax
   ```mermaid
   graph TD;
   Raw_Data-->Backup_Data;
