@@ -3,10 +3,10 @@
 
 ```mermaid
 graph TD;
-read.csv-->summarySE;
-summarySE-->write.csv;
+read_csv_file -->summarySE;
+summarySE-->write_csv_file;
 summarySE-->glm;
-glm-->write.csv;
+glm-->write_csv_file;
 glm-->ggplot;
 ```
 
