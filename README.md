@@ -53,6 +53,6 @@ F-. Global Test .->G(anova.cca)
 subgraph Plot
 direction BT
 D-->|Create simple plot|H(autoplot)
-D--> |Modify plot</br>fortify ccamodel</br>take scores, site factor, and species data| I(ggvegan,ggrepel,ggplot2)
+D--> |Modify plot</br>fortify ccamodel</br>take scores, site factor, and species data| I(ggvegan</br>ggrepel</br>ggplot2)
 
 ```
