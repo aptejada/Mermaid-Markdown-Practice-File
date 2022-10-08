@@ -51,6 +51,6 @@ C--> |Get summary of CCA Model| E(summary)
 C --> |Apply VIF less than 10|F(ordistep & vif.cca)
 F-. Global Test .->G(anova.cca)
 D-->|Create simple plot|H(autoplot)
-D-->|Modify plot|
+D--> I|Modify plot|
 
 ```
