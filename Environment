@@ -1,6 +1,6 @@
 
 ```mermaid
-  flowchart LR;
-  id1([Raw_Data])-->Backup_Data;
-  Raw_Data-->read.csv;
+  graph LR;
+  A[Raw_Data]-->|Temperature| B(read.csv);
+  A-->C[Backup_Data]
   ```
