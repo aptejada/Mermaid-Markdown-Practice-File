@@ -45,7 +45,7 @@ end
 flowchart LR
 id1[(Working Directory)] --> |CCA Metadata| B(read.delim)
 B --> |Data Cleaning,</br>Subsetting, &</br>Transposition| C(tidyverse)
-C --> |Create CCA Model| D(cca())
+C --> |Create CCA Model| D(cca)
 C--> |Get summary of CCA Model| E(summary)
 C --> |Apply VIF less than 10|F(ordistep & vif.cca)
 F-. Global Test .->G(anova.cca)
