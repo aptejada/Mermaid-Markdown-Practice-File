@@ -72,4 +72,6 @@ direction BT
 G-->|Create padj and log2Foldchange threshold|H(new vector)
 H--> |Add vector to results| I(new results)
 I--> |Subset, Filter results, and</br>write as new dataframe| J(Dataframe for contrast and plotting)
+%%Thresholds applied here are 0.05 for padj.cutoff and 0.58 lfc.cutoff
 end
+
