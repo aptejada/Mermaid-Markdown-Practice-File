@@ -77,5 +77,6 @@ end
 ```
 
 ```mermaid
-graph LR;
-id1{Dataframe for contrast and plotting} -->B(Ctenidia vs Mantle)
+graph TD;
+id1{Dataframe for contrast and plotting} --B(Ctenidia vs Mantle) & C(Ctenidia vs Water) & D(Mantle vs Water)
+```
