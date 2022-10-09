@@ -81,5 +81,8 @@ graph TD;
 A{Dataframe for contrast and plotting} ---B(Ctenidia vs Mantle) 
 A ---C(Ctenidia vs Water)
 A ---D(Mantle vs Water)
-B-. "contrast <- results(dds, contrast = c(factor1 vs factor2)" .-> E(results & summary)
+B-. "contrast <- results(dds, contrast = c(level, factor1, factor2)" .-> E(results & summary)
+C-. .->F(results & summary)
+D-. .->G(results & summary)
+
 ```
