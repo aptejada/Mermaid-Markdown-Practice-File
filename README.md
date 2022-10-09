@@ -84,5 +84,5 @@ A ---D(Mantle vs Water)
 B-. "contrast <- results(dds, contrast = c(level, factor1, factor2)" .-> E(results & summary)
 C-. " " .->F(results & summary)
 D-. " " .->G(results & summary)
-B-. "Visualize the results</br> using DEGreport and tidyquant" .->H(Volcano Plot)
+E-. "Visualize the results</br> using DEGreport and tidyquant" .->H(Volcano Plot)
 ```
