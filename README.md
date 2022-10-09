@@ -66,11 +66,11 @@ B --> |Data Cleaning,</br>Subsetting otu_table,tax_table,sample_data, &</br>Stri
 C --> |convert to data matrix| D(as.matrix)
 D -. Global Test .->G(anova.cca)
 C--> |create large phyloseq object| E(phyloseq)
-C --> |convert phyloseq to deseq|F(phyloseq_to_deseq2)
+E --> |convert phyloseq to deseq|F(phyloseq_to_deseq2)
 F-. Investigate test result .->G(results)
 subgraph Statistics
 direction BT
-G-->|Create pafj and log2Foldchange threshold|H(new vector)
+G-->|Create padj and log2Foldchange threshold|H(new vector)
 H--> |Add vector to results| I(new results)
 I--> |Subset and Filter results and write as new dataframe| J(Dataframe for contrast and plotting)
 end
