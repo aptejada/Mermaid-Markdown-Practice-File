@@ -59,4 +59,18 @@ end
 ```
 <h3 align="left">Predictive Function Data:</h3>
 
-
+```mermaid
+flowchart LR
+id1[(Working Directory)] --> |KO Metadata| B(read.csv)
+B --> |Data Cleaning,</br>Subsetting otu_table,tax_table,sample_data, &</br>String Factor to Character| C(tidyverse)
+C --> |convert to data matrix| D(as.matrix)
+D -. Global Test .->G(anova.cca)
+C--> |create large phyloseq object| E(phyloseq)
+C --> |convert phyloseq to deseq|F(phyloseq_to_deseq2)
+F-. Investigate test result .->G(results)
+subgraph Statistics
+direction BT
+G-->|Create pafj and log2Foldchange threshold|H(new vector)
+H--> |Add vector to results| I(new results)
+I--> |Subset and Filter results and write as new dataframe
+end
