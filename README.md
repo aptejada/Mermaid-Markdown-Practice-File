@@ -75,3 +75,7 @@ I--> |Subset, Filter results, and</br>write as new dataframe| J(Dataframe for co
 %%Thresholds applied here are 0.05 for padj.cutoff and 0.58 lfc.cutoff
 end
 ```
+
+```mermaid
+graph LR;
+id1{Dataframe for contrast and plotting} -->B(Ctenidia vs Mantle)
