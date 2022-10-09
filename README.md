@@ -72,5 +72,5 @@ subgraph Statistics
 direction BT
 G-->|Create pafj and log2Foldchange threshold|H(new vector)
 H--> |Add vector to results| I(new results)
-I--> |Subset and Filter results and write as new dataframe| J(Dataframe for contrast and plotting
+I--> |Subset and Filter results and write as new dataframe| J(Dataframe for contrast and plotting)
 end
